@@ -28,3 +28,5 @@ print("The Adventures of Sherlock holmes to %s" %
 
 # 随机的字符串压缩下来字符反而更多了，还不如不压缩
 print("Random file to %s " % zipped(rnd))
+
+# skip Hufffman compression, Huffman tree(binary tree)
