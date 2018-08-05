@@ -58,7 +58,6 @@ def kruskal(graph):
     while len(treepath) < (len(graph) - 1) and len(priority) > 0:
         # 会从最小值开始，最小值也就是用边的权重来排序的
         # 而且这样所有的边都会有
-        # TODO 如果有没有连接的顶点怎么办，上面的这个while应该是使用connected吧
         # 这里只要又一个顶点没有被连接过就挂了
         (weight, (start, end)) = priority.pop()
         # 这里的赋值是可以根据数据的形式来赋值的，感觉和前面数组里面的两个值交换一样

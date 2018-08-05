@@ -73,7 +73,7 @@ def lzw_decompress(encoded):
             print('> %s' % output)
             # output反正是一直在增加，主要变化的是s
             # 然后如果在字典里，就增加output，然后s就变成了现在这个新的字符
-            # 基本上的情况就是不在字典里，然后为什么还可以拼接output呢 TODO
+            # 基本上的情况就是不在字典里，然后为什么还可以拼接output呢
 
             # 看了一下过程就是，如果在字典里，拼接的只是新的字符，然后就直接创造新的字典内容了
             # 那下一个一定还是在字典里，然后又创造了新的字典内容
@@ -95,7 +95,10 @@ def lzw_decompress(encoded):
             # 然后还是foundABC，就把ABC和ABC的首字母拼成ABCA
 
             # 也就是说把可能的字符都提前压缩好了。顺序基本上就是按照一定的套路就安排好了
-            # 那什么时候会找不到呢 TODO 吐血
+            # 那什么时候会找不到呢
+
+            # 台风来了，看这个看到两点钟，躺下了还在想，心脏不舒服
+            # python工程师的工资一点都不高，golang工程师的工资也不怎么高。怎么样在能变成资深，或者架构师
     return output
 
 print('\ndecompressed string : %s' % lzw_decompress(compressed))

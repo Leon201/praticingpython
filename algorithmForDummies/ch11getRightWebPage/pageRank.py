@@ -66,7 +66,6 @@ G, p = initialize_PageRank(Graph_A)
 print (G)
 print (p)
 
-# TODO page218
 from scipy import sparse
 sG = sparse.csr_matrix(G)
 print (sG)

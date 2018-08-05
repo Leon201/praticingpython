@@ -1,0 +1,4 @@
+https://www.dummies.com/store/product/Algorithms-For-Dummies.productCd-1119330491,navId-322493,descCd-DOWNLOAD.html
+
+http://www.dummies.com/go/algorithmsfd
+会跳转到上面的链接

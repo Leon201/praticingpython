@@ -20,8 +20,6 @@ def create_clauses(i, seed=1):
         np.random.randint(i))) for j in range(i)]
 
 
-# TODO 两个**是表示乘法吗
-# TODO 入参前面加上*是什么意思
 
 # 给1加上符号，有一般的概率是否，也就是生成随机的true，false
 # 然后前面的编号是排序排好的
