@@ -78,3 +78,4 @@ plt.xlabel("Random ajustments")
 plt.ylabel("Unsatisfied clauses")
 plt.grid(True)
 plt.show()
+

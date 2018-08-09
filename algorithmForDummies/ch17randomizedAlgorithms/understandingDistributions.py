@@ -25,3 +25,4 @@ plt.show()
 
 # TODO 这张要不先skip 321 但是这张是在说分布式 distributions
 # 第19章和20章是线性规划，好像之前同学说到的是什么来着。启发式听起来像是粒子群算法
+# 18章 local search
